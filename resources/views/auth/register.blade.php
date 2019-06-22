@@ -4,7 +4,7 @@
 <div class="auth-2-outer row align-items-center h-p100 m-0">
   <div class="auth-2">
     <div class="auth-logo font-size-30">
-    <a href="../index-2.html" class=""><b>ADMIN</b>SKULLS</a>
+    <a href="{{ route('inicio') }}" class=""><b>ADMIN</b>Skulls</a>
     </div>
     <div class="auth-logo font-size-30">
     <img src="images/keyhole.png" width="20%"/>

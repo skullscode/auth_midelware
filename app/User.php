@@ -17,7 +17,6 @@ class User extends Authenticatable
     protected $fillable = [
         'name', 'email', 'password',
     ];
-
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -65,4 +64,9 @@ class User extends Authenticatable
         }
         return false;
     }
+
+    public function sendPasswordResetNotification($token)
+   {
+       $this->notify(new ResetPassword($token));
+   }
 }

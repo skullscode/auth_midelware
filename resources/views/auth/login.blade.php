@@ -44,7 +44,7 @@
 				<!-- /.col -->
 				<div class="col-6">
 				 <div class="fog-pwd">
-					<a href="javascript:void(0)" class=""><i class="ion ion-locked"></i> Olvidaste tu Contraseña?</a><br>
+					<a href="{{route('password.request')}}" class=""><i class="ion ion-locked"></i> Olvidaste tu Contraseña?</a><br>
 				  </div>
 				</div>
 				<!-- /.col -->
